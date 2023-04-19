@@ -1,5 +1,12 @@
 # user-list-example-app
 
+This application is meant to demonstrate a simple vue application with:
+    1. Components
+    2. Routing
+    3. State management
+    4. Validation
+    5. OOP
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
