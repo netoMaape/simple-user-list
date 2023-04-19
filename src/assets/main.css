@@ -1,0 +1,55 @@
+@import './base.css';
+
+#app {
+  margin: 0 auto;
+  padding: 2rem;
+
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ddd;
+  font-size: 1em;
+  padding: 10px 5px;
+  margin: 10px 0 5px 0;
+  width: 100%;
+}
+button {
+  background-color: #52595e;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  color: white;
+  min-height: 25px;
+  min-width: 50px;
+}
+
+input[type="number"]:disabled {
+  background: #c1bfbf;
+}
+
+button:hover {
+  background-color: hsla(161, 76%, 8%, 0.2);
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: flex;
+  }
+
+}
